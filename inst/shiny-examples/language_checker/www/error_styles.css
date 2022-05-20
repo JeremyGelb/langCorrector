@@ -1,0 +1,127 @@
+/* Style for a casing issue */
+.CASING{
+  text-decoration: underline;
+  text-decoration-color: blue;
+}
+
+/* Style for a PUNCTUATION  issue */
+.PUNCTUATION{
+  text-decoration: underline;
+  text-decoration-color: blue;
+}
+
+/* Style for a COLLOQUIALISMS issue */
+.COLLOQUIALISMS{
+  text-decoration: underline;
+  text-decoration-color: orange;
+  text-decoration-style: wavy;
+}
+
+/* Style for a COMPOUNDING issue */
+.COMPOUNDING{
+  text-decoration: underline;
+  text-decoration-color: red;
+  text-decoration-style: wavy;
+}
+
+/* Style for a CONFUSED_WORDS issue */
+.CONFUSED_WORDS{
+  text-decoration: underline;
+  text-decoration-color: blue;
+  text-decoration-style: wavy;
+}
+
+/* Style for a FALSE_FRIENDS issue */
+.FALSE_FRIENDS{
+  text-decoration: underline;
+  text-decoration-color: blue;
+  text-decoration-style: wavy;
+}
+
+/* Style for a REGIONALISMS issue */
+.REGIONALISMS{
+  text-decoration: underline;
+  text-decoration-color: blue;
+  text-decoration-style: wavy;
+}
+
+/* Style for a REPETITIONS_STYLE issue */
+.REPETITIONS_STYLE{
+  text-decoration: underline;
+  text-decoration-color: blue;
+  text-decoration-style: wavy;
+}
+
+
+/* Style for a GENDER_NEUTRALITY  issue */
+.GENDER_NEUTRALITY {
+  text-decoration: underline;
+  text-decoration-color: green;
+  text-decoration-style: wavy;
+}
+
+/* Style for a GRAMMAR issue */
+.GRAMMAR  {
+  color: red;
+  text-decoration: underline;
+  text-decoration-color: red;
+}
+
+/* Style for a TYPOGRAPHY issue */
+.TYPOGRAPHY  {
+  color: red;
+  text-decoration: underline;
+  text-decoration-color: red;
+}
+
+/* Style for a TYPOS issue */
+.TYPOS {
+  color: red;
+  text-decoration: underline;
+  text-decoration-color: red;
+}
+
+.CAT_HOMONYMES_PARONYMES{
+  color: red;
+  text-decoration: underline;
+  text-decoration-color: red;
+}
+
+/* Style for a REDUNDANCY  issue */
+.REDUNDANCY {
+  color: red;
+  text-decoration: underline;
+  text-decoration-color: red;
+  text-decoration-style: wavy;
+}
+
+/* Style for a REPETITIONS issue */
+.REPETITIONS {
+  color: red;
+  text-decoration: underline;
+  text-decoration-color: red;
+  text-decoration-style: wavy;
+}
+
+/* Style for a SEMANTICS issue */
+.SEMANTICS {
+  text-decoration: underline;
+  text-decoration-color: green;
+  text-decoration-style: wavy;
+}
+
+/* Style for a STYLE issue */
+.STYLE {
+  text-decoration: underline;
+  text-decoration-color: green;
+  text-decoration-style: wavy;
+}
+
+/* Style for a MISC issue */
+.MISC  {
+  text-decoration: underline;
+  text-decoration-color: green;
+  text-decoration-style: wavy;
+}
+
+

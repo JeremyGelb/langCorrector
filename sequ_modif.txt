@@ -1,0 +1,1434 @@
+$message
+[1] "Faute de frappe possible trouvée."
+
+$shortMessage
+[1] "Faute de frappe"
+
+$replacements
+$replacements[[1]]
+$replacements[[1]]$value
+[1] "datagramme"
+
+
+
+$offset
+[1] 308
+
+$length
+[1] 9
+
+$context
+$context$text
+[1] "...us-tendent le travail effectué avec R (*dataframe*, vecteur, matrice, etc.) et comment le..."
+
+$context$offset
+[1] 43
+
+$context$length
+[1] 9
+
+
+$sentence
+[1] "Nous présenterons les principaux objets qui sous-tendent le travail effectué avec R (*dataframe*, vecteur, matrice, etc.) et comment les manipuler avec des exemples appliqués."
+
+$type
+$type$typeName
+[1] "Other"
+
+
+$rule
+$rule$id
+[1] "FR_SPELLING_RULE"
+
+$rule$description
+[1] "Faute de frappe possible"
+
+$rule$issueType
+[1] "misspelling"
+
+$rule$category
+$rule$category$id
+[1] "TYPOS"
+
+$rule$category$name
+[1] "Faute de frappe possible"
+
+
+
+$ignoreForIncompleteSentence
+[1] FALSE
+
+$contextForSureMatch
+[1] 0
+
+
+Dans ce chapitre, nous reviendrons brièvement sur l’histoire de R et la philosophie qui entoure le logiciel. Nous donnerons quelques conseils pour son installation et la mise en place d’un environnement de développement. Nous présenterons les principaux objets qui sous-tendent le travail effectué avec R (*<span class = 'TYPOS'>dataframe</span>*, vecteur, matrice, etc.) et comment les manipuler avec des exemples appliqués. Si vous maîtrisez déjà R, nullement besoin de lire ce chapitre !
+
+::: {.bloc_package data-latex=''}
+Dans ce chapitre, nous utiliserons principalement les *packages* suivants :
+
+* Pour importer des fichiers externes :
+  - **foreign** pour entre autres les fichiers *dbase* et ceux des logiciels. SPSS et Stata
+  - **sas7bdat** pour les fichiers du logiciel SAS.
+  - **xlsx** pour les fichiers Excel.
+* Pour manipuler des chaînes de caractères et des dates :
+  - **stringr** pour les chaînes de caractères.
+  - **lubridate** pour les dates.
+* Pour manipuler des données :
+  - **dplyr ** du **tidyverse** propose une grammaire pour manipuler et structurer des données.
+:::
+$message
+[1] "Les deux-points sont précédés d’une espace insécable."
+
+$shortMessage
+[1] "Insérer une espace insécable"
+
+$replacements
+$replacements[[1]]
+$replacements[[1]]$value
+[1] ": :"
+
+
+
+$offset
+[1] 464
+
+$length
+[1] 2
+
+$context
+$context$text
+[1] "...nullement besoin de lire ce chapitre !  ::: {.bloc_package data-latex=''} Dans ce ..."
+
+$context$offset
+[1] 43
+
+$context$length
+[1] 2
+
+
+$sentence
+[1] "::: {.bloc_package data-latex=''}\nDans ce chapitre, nous utiliserons principalement les *packages* suivants :"
+
+$type
+$type$typeName
+[1] "Other"
+
+
+$rule
+$rule$id
+[1] "FRENCH_WHITESPACE"
+
+$rule$description
+[1] "Insertion des espaces fines insécables"
+
+$rule$issueType
+[1] "uncategorized"
+
+$rule$category
+$rule$category$id
+[1] "MISC"
+
+$rule$category$name
+[1] "Règles de base"
+
+
+
+$ignoreForIncompleteSentence
+[1] FALSE
+
+$contextForSureMatch
+[1] 0
+
+
+Dans ce chapitre, nous reviendrons brièvement sur l’histoire de R et la philosophie qui entoure le logiciel. Nous donnerons quelques conseils pour son installation et la mise en place d’un environnement de développement. Nous présenterons les principaux objets qui sous-tendent le travail effectué avec R (*<span class = 'TYPOS'>dataframe</span>*, vecteur, matrice, etc.) et comment les manipuler avec des exemples appliqués. Si vous maîtrisez déjà R, nullement besoin de lire ce chapitre !
+
+<span class = 'MISC'>::</span>: {.bloc_package data-latex=''}
+Dans ce chapitre, nous utiliserons principalement les *packages* suivants :
+
+* Pour importer des fichiers externes :
+  - **foreign** pour entre autres les fichiers *dbase* et ceux des logiciels. SPSS et Stata
+  - **sas7bdat** pour les fichiers du logiciel SAS.
+  - **xlsx** pour les fichiers Excel.
+* Pour manipuler des chaînes de caractères et des dates :
+  - **stringr** pour les chaînes de caractères.
+  - **lubridate** pour les dates.
+* Pour manipuler des données :
+  - **dplyr ** du **tidyverse** propose une grammaire pour manipuler et structurer des données.
+:::
+$message
+[1] "Faute de frappe possible trouvée."
+
+$shortMessage
+[1] "Faute de frappe"
+
+$replacements
+$replacements[[1]]
+$replacements[[1]]$value
+[1] "GeoPackage"
+
+
+
+$offset
+[1] 470
+
+$length
+[1] 12
+
+$context
+$context$text
+[1] "...ent besoin de lire ce chapitre !  ::: {.bloc_package data-latex=''} Dans ce chapitre, nous u..."
+
+$context$offset
+[1] 43
+
+$context$length
+[1] 12
+
+
+$sentence
+[1] "::: {.bloc_package data-latex=''}\nDans ce chapitre, nous utiliserons principalement les *packages* suivants :"
+
+$type
+$type$typeName
+[1] "Other"
+
+
+$rule
+$rule$id
+[1] "FR_SPELLING_RULE"
+
+$rule$description
+[1] "Faute de frappe possible"
+
+$rule$issueType
+[1] "misspelling"
+
+$rule$category
+$rule$category$id
+[1] "TYPOS"
+
+$rule$category$name
+[1] "Faute de frappe possible"
+
+
+
+$ignoreForIncompleteSentence
+[1] FALSE
+
+$contextForSureMatch
+[1] 0
+
+
+Dans ce chapitre, nous reviendrons brièvement sur l’histoire de R et la philosophie qui entoure le logiciel. Nous donnerons quelques conseils pour son installation et la mise en place d’un environnement de développement. Nous présenterons les principaux objets qui sous-tendent le travail effectué avec R (*<span class = 'TYPOS'>dataframe</span>*, vecteur, matrice, etc.) et comment les manipuler avec des exemples appliqués. Si vous maîtrisez déjà R, nullement besoin de lire ce chapitre !
+
+<span class = 'MISC'>::</span>: {.<span class = 'TYPOS'>bloc_package</span> data-latex=''}
+Dans ce chapitre, nous utiliserons principalement les *packages* suivants :
+
+* Pour importer des fichiers externes :
+  - **foreign** pour entre autres les fichiers *dbase* et ceux des logiciels. SPSS et Stata
+  - **sas7bdat** pour les fichiers du logiciel SAS.
+  - **xlsx** pour les fichiers Excel.
+* Pour manipuler des chaînes de caractères et des dates :
+  - **stringr** pour les chaînes de caractères.
+  - **lubridate** pour les dates.
+* Pour manipuler des données :
+  - **dplyr ** du **tidyverse** propose une grammaire pour manipuler et structurer des données.
+:::
+$message
+[1] "Faute de frappe possible trouvée."
+
+$shortMessage
+[1] "Faute de frappe"
+
+$replacements
+$replacements[[1]]
+$replacements[[1]]$value
+[1] "forêt"
+
+
+$replacements[[2]]
+$replacements[[2]]$value
+[1] "forêts"
+
+
+$replacements[[3]]
+$replacements[[3]]$value
+[1] "coréen"
+
+
+$replacements[[4]]
+$replacements[[4]]$value
+[1] "frein"
+
+
+$replacements[[5]]
+$replacements[[5]]$value
+[1] "fortin"
+
+
+$replacements[[6]]
+$replacements[[6]]$value
+[1] "forain"
+
+
+$replacements[[7]]
+$replacements[[7]]$value
+[1] "forcing"
+
+
+$replacements[[8]]
+$replacements[[8]]$value
+[1] "forés"
+
+
+$replacements[[9]]
+$replacements[[9]]$value
+[1] "phocéen"
+
+
+$replacements[[10]]
+$replacements[[10]]$value
+[1] "forée"
+
+
+$replacements[[11]]
+$replacements[[11]]$value
+[1] "forées"
+
+
+$replacements[[12]]
+$replacements[[12]]$value
+[1] "fordien"
+
+
+$replacements[[13]]
+$replacements[[13]]$value
+[1] "forligna"
+
+
+$replacements[[14]]
+$replacements[[14]]$value
+[1] "forligne"
+
+
+$replacements[[15]]
+$replacements[[15]]$value
+[1] "forlignè"
+
+
+$replacements[[16]]
+$replacements[[16]]$value
+[1] "forligné"
+
+
+$replacements[[17]]
+$replacements[[17]]$value
+[1] "phormion"
+
+
+
+$offset
+[1] 621
+
+$length
+[1] 7
+
+$context
+$context$text
+[1] "... importer des fichiers externes :   - **foreign** pour entre autres les fichiers *dbase..."
+
+$context$offset
+[1] 43
+
+$context$length
+[1] 7
+
+
+$sentence
+[1] "* Pour importer des fichiers externes :\n  - **foreign** pour entre autres les fichiers *dbase* et ceux des logiciels."
+
+$type
+$type$typeName
+[1] "Other"
+
+
+$rule
+$rule$id
+[1] "FR_SPELLING_RULE"
+
+$rule$description
+[1] "Faute de frappe possible"
+
+$rule$issueType
+[1] "misspelling"
+
+$rule$category
+$rule$category$id
+[1] "TYPOS"
+
+$rule$category$name
+[1] "Faute de frappe possible"
+
+
+
+$ignoreForIncompleteSentence
+[1] FALSE
+
+$contextForSureMatch
+[1] 0
+
+
+Dans ce chapitre, nous reviendrons brièvement sur l’histoire de R et la philosophie qui entoure le logiciel. Nous donnerons quelques conseils pour son installation et la mise en place d’un environnement de développement. Nous présenterons les principaux objets qui sous-tendent le travail effectué avec R (*<span class = 'TYPOS'>dataframe</span>*, vecteur, matrice, etc.) et comment les manipuler avec des exemples appliqués. Si vous maîtrisez déjà R, nullement besoin de lire ce chapitre !
+
+<span class = 'MISC'>::</span>: {.<span class = 'TYPOS'>bloc_package</span> data-latex=''}
+Dans ce chapitre, nous utiliserons principalement les *packages* suivants :
+
+* Pour importer des fichiers externes :
+  - **<span class = 'TYPOS'>foreign</span>** pour entre autres les fichiers *dbase* et ceux des logiciels. SPSS et Stata
+  - **sas7bdat** pour les fichiers du logiciel SAS.
+  - **xlsx** pour les fichiers Excel.
+* Pour manipuler des chaînes de caractères et des dates :
+  - **stringr** pour les chaînes de caractères.
+  - **lubridate** pour les dates.
+* Pour manipuler des données :
+  - **dplyr ** du **tidyverse** propose une grammaire pour manipuler et structurer des données.
+:::
+$message
+[1] "Faute de frappe possible trouvée."
+
+$shortMessage
+[1] "Faute de frappe"
+
+$replacements
+$replacements[[1]]
+$replacements[[1]]$value
+[1] "base"
+
+
+$replacements[[2]]
+$replacements[[2]]$value
+[1] "basé"
+
+
+$replacements[[3]]
+$replacements[[3]]$value
+[1] "basè"
+
+
+
+$offset
+[1] 663
+
+$length
+[1] 5
+
+$context
+$context$text
+[1] "...reign** pour entre autres les fichiers *dbase* et ceux des logiciels. SPSS et Stata  ..."
+
+$context$offset
+[1] 43
+
+$context$length
+[1] 5
+
+
+$sentence
+[1] "* Pour importer des fichiers externes :\n  - **foreign** pour entre autres les fichiers *dbase* et ceux des logiciels."
+
+$type
+$type$typeName
+[1] "Other"
+
+
+$rule
+$rule$id
+[1] "FR_SPELLING_RULE"
+
+$rule$description
+[1] "Faute de frappe possible"
+
+$rule$issueType
+[1] "misspelling"
+
+$rule$category
+$rule$category$id
+[1] "TYPOS"
+
+$rule$category$name
+[1] "Faute de frappe possible"
+
+
+
+$ignoreForIncompleteSentence
+[1] FALSE
+
+$contextForSureMatch
+[1] 0
+
+
+Dans ce chapitre, nous reviendrons brièvement sur l’histoire de R et la philosophie qui entoure le logiciel. Nous donnerons quelques conseils pour son installation et la mise en place d’un environnement de développement. Nous présenterons les principaux objets qui sous-tendent le travail effectué avec R (*<span class = 'TYPOS'>dataframe</span>*, vecteur, matrice, etc.) et comment les manipuler avec des exemples appliqués. Si vous maîtrisez déjà R, nullement besoin de lire ce chapitre !
+
+<span class = 'MISC'>::</span>: {.<span class = 'TYPOS'>bloc_package</span> data-latex=''}
+Dans ce chapitre, nous utiliserons principalement les *packages* suivants :
+
+* Pour importer des fichiers externes :
+  - **<span class = 'TYPOS'>foreign</span>** pour entre autres les fichiers *<span class = 'TYPOS'>dbase</span>* et ceux des logiciels. SPSS et Stata
+  - **sas7bdat** pour les fichiers du logiciel SAS.
+  - **xlsx** pour les fichiers Excel.
+* Pour manipuler des chaînes de caractères et des dates :
+  - **stringr** pour les chaînes de caractères.
+  - **lubridate** pour les dates.
+* Pour manipuler des données :
+  - **dplyr ** du **tidyverse** propose une grammaire pour manipuler et structurer des données.
+:::
+$message
+[1] "Possible faute de frappe trouvée."
+
+$shortMessage
+[1] ""
+
+$replacements
+$replacements[[1]]
+$replacements[[1]]$value
+[1] "sabbat"
+
+
+$replacements[[2]]
+$replacements[[2]]$value
+[1] "sablât"
+
+
+$replacements[[3]]
+$replacements[[3]]$value
+[1] "sabrât"
+
+
+$replacements[[4]]
+$replacements[[4]]$value
+[1] "sassât"
+
+
+
+$offset
+[1] 713
+
+$length
+[1] 8
+
+$context
+$context$text
+[1] "...ceux des logiciels. SPSS et Stata   - **sas7bdat** pour les fichiers du logiciel SAS.   ..."
+
+$context$offset
+[1] 43
+
+$context$length
+[1] 8
+
+
+$sentence
+[1] "SPSS et Stata\n  - **sas7bdat** pour les fichiers du logiciel SAS."
+
+$type
+$type$typeName
+[1] "Other"
+
+
+$rule
+$rule$id
+[1] "NUMBERS_IN_WORDS"
+
+$rule$subId
+[1] "1"
+
+$rule$sourceFile
+[1] "grammar.xml"
+
+$rule$description
+[1] "Numbers in words"
+
+$rule$issueType
+[1] "uncategorized"
+
+$rule$category
+$rule$category$id
+[1] "CAT_HOMONYMES_PARONYMES"
+
+$rule$category$name
+[1] "Confusion d’homonymes et paronymes"
+
+
+
+$ignoreForIncompleteSentence
+[1] FALSE
+
+$contextForSureMatch
+[1] 3
+
+
+Dans ce chapitre, nous reviendrons brièvement sur l’histoire de R et la philosophie qui entoure le logiciel. Nous donnerons quelques conseils pour son installation et la mise en place d’un environnement de développement. Nous présenterons les principaux objets qui sous-tendent le travail effectué avec R (*<span class = 'TYPOS'>dataframe</span>*, vecteur, matrice, etc.) et comment les manipuler avec des exemples appliqués. Si vous maîtrisez déjà R, nullement besoin de lire ce chapitre !
+
+<span class = 'MISC'>::</span>: {.<span class = 'TYPOS'>bloc_package</span> data-latex=''}
+Dans ce chapitre, nous utiliserons principalement les *packages* suivants :
+
+* Pour importer des fichiers externes :
+  - **<span class = 'TYPOS'>foreign</span>** pour entre autres les fichiers *<span class = 'TYPOS'>dbase</span>* et ceux des logiciels. SPSS et Stata
+  - **<span class = 'CAT_HOMONYMES_PARONYMES'>sas7bdat</span>** pour les fichiers du logiciel SAS.
+  - **xlsx** pour les fichiers Excel.
+* Pour manipuler des chaînes de caractères et des dates :
+  - **stringr** pour les chaînes de caractères.
+  - **lubridate** pour les dates.
+* Pour manipuler des données :
+  - **dplyr ** du **tidyverse** propose une grammaire pour manipuler et structurer des données.
+:::
+$message
+[1] "Faute de frappe possible trouvée."
+
+$shortMessage
+[1] "Faute de frappe"
+
+$replacements
+$replacements[[1]]
+$replacements[[1]]$value
+[1] "XLSX"
+
+
+$replacements[[2]]
+$replacements[[2]]$value
+[1] "XLS"
+
+
+$replacements[[3]]
+$replacements[[3]]$value
+[1] "ils"
+
+
+$replacements[[4]]
+$replacements[[4]]$value
+[1] "flux"
+
+
+$replacements[[5]]
+$replacements[[5]]$value
+[1] "Alex"
+
+
+$replacements[[6]]
+$replacements[[6]]$value
+[1] "LSD"
+
+
+$replacements[[7]]
+$replacements[[7]]$value
+[1] "Alix"
+
+
+$replacements[[8]]
+$replacements[[8]]$value
+[1] "Elsa"
+
+
+$replacements[[9]]
+$replacements[[9]]$value
+[1] "LS"
+
+
+$replacements[[10]]
+$replacements[[10]]$value
+[1] "lux"
+
+
+$replacements[[11]]
+$replacements[[11]]$value
+[1] "DLS"
+
+
+$replacements[[12]]
+$replacements[[12]]$value
+[1] "Elx"
+
+
+$replacements[[13]]
+$replacements[[13]]$value
+[1] "Glx"
+
+
+$replacements[[14]]
+$replacements[[14]]$value
+[1] "Lex"
+
+
+$replacements[[15]]
+$replacements[[15]]$value
+[1] "Mlx"
+
+
+$replacements[[16]]
+$replacements[[16]]$value
+[1] "Plx"
+
+
+$replacements[[17]]
+$replacements[[17]]$value
+[1] "Tlx"
+
+
+$replacements[[18]]
+$replacements[[18]]$value
+[1] "XLIXe"
+
+
+$replacements[[19]]
+$replacements[[19]]$value
+[1] "XLIXᵉ"
+
+
+$replacements[[20]]
+$replacements[[20]]$value
+[1] "XLIe"
+
+
+$replacements[[21]]
+$replacements[[21]]$value
+[1] "XLIᵉ"
+
+
+$replacements[[22]]
+$replacements[[22]]$value
+[1] "XLVe"
+
+
+$replacements[[23]]
+$replacements[[23]]$value
+[1] "XLVᵉ"
+
+
+$replacements[[24]]
+$replacements[[24]]$value
+[1] "XLe"
+
+
+$replacements[[25]]
+$replacements[[25]]$value
+[1] "XLes"
+
+
+$replacements[[26]]
+$replacements[[26]]$value
+[1] "XLᵉ"
+
+
+$replacements[[27]]
+$replacements[[27]]$value
+[1] "XLᵉˢ"
+
+
+$replacements[[28]]
+$replacements[[28]]$value
+[1] "Xes"
+
+
+$replacements[[29]]
+$replacements[[29]]$value
+[1] "Ylx"
+
+
+$replacements[[30]]
+$replacements[[30]]$value
+[1] "Zlx"
+
+
+$replacements[[31]]
+$replacements[[31]]$value
+[1] "alx"
+
+
+$replacements[[32]]
+$replacements[[32]]$value
+[1] "clx"
+
+
+$replacements[[33]]
+$replacements[[33]]$value
+[1] "dlx"
+
+
+$replacements[[34]]
+$replacements[[34]]$value
+[1] "flx"
+
+
+$replacements[[35]]
+$replacements[[35]]$value
+[1] "hlx"
+
+
+$replacements[[36]]
+$replacements[[36]]$value
+[1] "klx"
+
+
+$replacements[[37]]
+$replacements[[37]]$value
+[1] "lx"
+
+
+$replacements[[38]]
+$replacements[[38]]$value
+[1] "mlx"
+
+
+$replacements[[39]]
+$replacements[[39]]$value
+[1] "nlx"
+
+
+$replacements[[40]]
+$replacements[[40]]$value
+[1] "plx"
+
+
+$replacements[[41]]
+$replacements[[41]]$value
+[1] "xis"
+
+
+$replacements[[42]]
+$replacements[[42]]$value
+[1] "xlixᵉ"
+
+
+$replacements[[43]]
+$replacements[[43]]$value
+[1] "xliᵉ"
+
+
+$replacements[[44]]
+$replacements[[44]]$value
+[1] "xlvᵉ"
+
+
+$replacements[[45]]
+$replacements[[45]]$value
+[1] "xlᵉ"
+
+
+$replacements[[46]]
+$replacements[[46]]$value
+[1] "xlᵉˢ"
+
+
+$replacements[[47]]
+$replacements[[47]]$value
+[1] "ylx"
+
+
+$replacements[[48]]
+$replacements[[48]]$value
+[1] "zlx"
+
+
+$replacements[[49]]
+$replacements[[49]]$value
+[1] "µlx"
+
+
+$replacements[[50]]
+$replacements[[50]]$value
+[1] "GLS"
+
+
+$replacements[[51]]
+$replacements[[51]]$value
+[1] "Plex"
+
+
+$replacements[[52]]
+$replacements[[52]]$value
+[1] "TLS"
+
+
+$replacements[[53]]
+$replacements[[53]]$value
+[1] "XS"
+
+
+$replacements[[54]]
+$replacements[[54]]$value
+[1] "XSD"
+
+
+$replacements[[55]]
+$replacements[[55]]$value
+[1] "XSL"
+
+
+$replacements[[56]]
+$replacements[[56]]$value
+[1] "Xbox"
+
+
+
+$offset
+[1] 765
+
+$length
+[1] 4
+
+$context
+$context$text
+[1] "...our les fichiers du logiciel SAS.   - **xlsx** pour les fichiers Excel. * Pour manip..."
+
+$context$offset
+[1] 43
+
+$context$length
+[1] 4
+
+
+$sentence
+[1] "- **xlsx** pour les fichiers Excel."
+
+$type
+$type$typeName
+[1] "Other"
+
+
+$rule
+$rule$id
+[1] "FR_SPELLING_RULE"
+
+$rule$description
+[1] "Faute de frappe possible"
+
+$rule$issueType
+[1] "misspelling"
+
+$rule$category
+$rule$category$id
+[1] "TYPOS"
+
+$rule$category$name
+[1] "Faute de frappe possible"
+
+
+
+$ignoreForIncompleteSentence
+[1] FALSE
+
+$contextForSureMatch
+[1] 0
+
+
+Dans ce chapitre, nous reviendrons brièvement sur l’histoire de R et la philosophie qui entoure le logiciel. Nous donnerons quelques conseils pour son installation et la mise en place d’un environnement de développement. Nous présenterons les principaux objets qui sous-tendent le travail effectué avec R (*<span class = 'TYPOS'>dataframe</span>*, vecteur, matrice, etc.) et comment les manipuler avec des exemples appliqués. Si vous maîtrisez déjà R, nullement besoin de lire ce chapitre !
+
+<span class = 'MISC'>::</span>: {.<span class = 'TYPOS'>bloc_package</span> data-latex=''}
+Dans ce chapitre, nous utiliserons principalement les *packages* suivants :
+
+* Pour importer des fichiers externes :
+  - **<span class = 'TYPOS'>foreign</span>** pour entre autres les fichiers *<span class = 'TYPOS'>dbase</span>* et ceux des logiciels. SPSS et Stata
+  - **<span class = 'CAT_HOMONYMES_PARONYMES'>sas7bdat</span>** pour les fichiers du logiciel SAS.
+  - **<span class = 'TYPOS'>xlsx</span>** pour les fichiers Excel.
+* Pour manipuler des chaînes de caractères et des dates :
+  - **stringr** pour les chaînes de caractères.
+  - **lubridate** pour les dates.
+* Pour manipuler des données :
+  - **dplyr ** du **tidyverse** propose une grammaire pour manipuler et structurer des données.
+:::
+$message
+[1] "Faute de frappe possible trouvée."
+
+$shortMessage
+[1] "Faute de frappe"
+
+$replacements
+$replacements[[1]]
+$replacements[[1]]$value
+[1] "string"
+
+
+$replacements[[2]]
+$replacements[[2]]$value
+[1] "strings"
+
+
+$replacements[[3]]
+$replacements[[3]]$value
+[1] "string r"
+
+
+
+$offset
+[1] 861
+
+$length
+[1] 7
+
+$context
+$context$text
+[1] "...înes de caractères et des dates :   - **stringr** pour les chaînes de caractères.   - *..."
+
+$context$offset
+[1] 43
+
+$context$length
+[1] 7
+
+
+$sentence
+[1] "* Pour manipuler des chaînes de caractères et des dates :\n  - **stringr** pour les chaînes de caractères."
+
+$type
+$type$typeName
+[1] "Other"
+
+
+$rule
+$rule$id
+[1] "FR_SPELLING_RULE"
+
+$rule$description
+[1] "Faute de frappe possible"
+
+$rule$issueType
+[1] "misspelling"
+
+$rule$category
+$rule$category$id
+[1] "TYPOS"
+
+$rule$category$name
+[1] "Faute de frappe possible"
+
+
+
+$ignoreForIncompleteSentence
+[1] FALSE
+
+$contextForSureMatch
+[1] 0
+
+
+Dans ce chapitre, nous reviendrons brièvement sur l’histoire de R et la philosophie qui entoure le logiciel. Nous donnerons quelques conseils pour son installation et la mise en place d’un environnement de développement. Nous présenterons les principaux objets qui sous-tendent le travail effectué avec R (*<span class = 'TYPOS'>dataframe</span>*, vecteur, matrice, etc.) et comment les manipuler avec des exemples appliqués. Si vous maîtrisez déjà R, nullement besoin de lire ce chapitre !
+
+<span class = 'MISC'>::</span>: {.<span class = 'TYPOS'>bloc_package</span> data-latex=''}
+Dans ce chapitre, nous utiliserons principalement les *packages* suivants :
+
+* Pour importer des fichiers externes :
+  - **<span class = 'TYPOS'>foreign</span>** pour entre autres les fichiers *<span class = 'TYPOS'>dbase</span>* et ceux des logiciels. SPSS et Stata
+  - **<span class = 'CAT_HOMONYMES_PARONYMES'>sas7bdat</span>** pour les fichiers du logiciel SAS.
+  - **<span class = 'TYPOS'>xlsx</span>** pour les fichiers Excel.
+* Pour manipuler des chaînes de caractères et des dates :
+  - **<span class = 'TYPOS'>stringr</span>** pour les chaînes de caractères.
+  - **lubridate** pour les dates.
+* Pour manipuler des données :
+  - **dplyr ** du **tidyverse** propose une grammaire pour manipuler et structurer des données.
+:::
+$message
+[1] "Faute de frappe possible trouvée."
+
+$shortMessage
+[1] "Faute de frappe"
+
+$replacements
+$replacements[[1]]
+$replacements[[1]]$value
+[1] "lubricité"
+
+
+
+$offset
+[1] 909
+
+$length
+[1] 9
+
+$context
+$context$text
+[1] "...* pour les chaînes de caractères.   - **lubridate** pour les dates. * Pour manipuler des ..."
+
+$context$offset
+[1] 43
+
+$context$length
+[1] 9
+
+
+$sentence
+[1] "- **lubridate** pour les dates."
+
+$type
+$type$typeName
+[1] "Other"
+
+
+$rule
+$rule$id
+[1] "FR_SPELLING_RULE"
+
+$rule$description
+[1] "Faute de frappe possible"
+
+$rule$issueType
+[1] "misspelling"
+
+$rule$category
+$rule$category$id
+[1] "TYPOS"
+
+$rule$category$name
+[1] "Faute de frappe possible"
+
+
+
+$ignoreForIncompleteSentence
+[1] FALSE
+
+$contextForSureMatch
+[1] 0
+
+
+Dans ce chapitre, nous reviendrons brièvement sur l’histoire de R et la philosophie qui entoure le logiciel. Nous donnerons quelques conseils pour son installation et la mise en place d’un environnement de développement. Nous présenterons les principaux objets qui sous-tendent le travail effectué avec R (*<span class = 'TYPOS'>dataframe</span>*, vecteur, matrice, etc.) et comment les manipuler avec des exemples appliqués. Si vous maîtrisez déjà R, nullement besoin de lire ce chapitre !
+
+<span class = 'MISC'>::</span>: {.<span class = 'TYPOS'>bloc_package</span> data-latex=''}
+Dans ce chapitre, nous utiliserons principalement les *packages* suivants :
+
+* Pour importer des fichiers externes :
+  - **<span class = 'TYPOS'>foreign</span>** pour entre autres les fichiers *<span class = 'TYPOS'>dbase</span>* et ceux des logiciels. SPSS et Stata
+  - **<span class = 'CAT_HOMONYMES_PARONYMES'>sas7bdat</span>** pour les fichiers du logiciel SAS.
+  - **<span class = 'TYPOS'>xlsx</span>** pour les fichiers Excel.
+* Pour manipuler des chaînes de caractères et des dates :
+  - **<span class = 'TYPOS'>stringr</span>** pour les chaînes de caractères.
+  - **<span class = 'TYPOS'>lubridate</span>** pour les dates.
+* Pour manipuler des données :
+  - **dplyr ** du **tidyverse** propose une grammaire pour manipuler et structurer des données.
+:::
+$message
+[1] "Faute de frappe possible trouvée."
+
+$shortMessage
+[1] "Faute de frappe"
+
+$replacements
+$replacements[[1]]
+$replacements[[1]]$value
+[1] "dollar"
+
+
+$replacements[[2]]
+$replacements[[2]]$value
+[1] "PLR"
+
+
+$replacements[[3]]
+$replacements[[3]]$value
+[1] "daller"
+
+
+$replacements[[4]]
+$replacements[[4]]$value
+[1] "Dolly"
+
+
+$replacements[[5]]
+$replacements[[5]]$value
+[1] "doler"
+
+
+
+$offset
+[1] 974
+
+$length
+[1] 5
+
+$context
+$context$text
+[1] "...s. * Pour manipuler des données :   - **dplyr ** du **tidyverse** propose une grammai..."
+
+$context$offset
+[1] 43
+
+$context$length
+[1] 5
+
+
+$sentence
+[1] "* Pour manipuler des données :\n  - **dplyr ** du **tidyverse** propose une grammaire pour manipuler et structurer des données."
+
+$type
+$type$typeName
+[1] "Other"
+
+
+$rule
+$rule$id
+[1] "FR_SPELLING_RULE"
+
+$rule$description
+[1] "Faute de frappe possible"
+
+$rule$issueType
+[1] "misspelling"
+
+$rule$category
+$rule$category$id
+[1] "TYPOS"
+
+$rule$category$name
+[1] "Faute de frappe possible"
+
+
+
+$ignoreForIncompleteSentence
+[1] FALSE
+
+$contextForSureMatch
+[1] 0
+
+
+Dans ce chapitre, nous reviendrons brièvement sur l’histoire de R et la philosophie qui entoure le logiciel. Nous donnerons quelques conseils pour son installation et la mise en place d’un environnement de développement. Nous présenterons les principaux objets qui sous-tendent le travail effectué avec R (*<span class = 'TYPOS'>dataframe</span>*, vecteur, matrice, etc.) et comment les manipuler avec des exemples appliqués. Si vous maîtrisez déjà R, nullement besoin de lire ce chapitre !
+
+<span class = 'MISC'>::</span>: {.<span class = 'TYPOS'>bloc_package</span> data-latex=''}
+Dans ce chapitre, nous utiliserons principalement les *packages* suivants :
+
+* Pour importer des fichiers externes :
+  - **<span class = 'TYPOS'>foreign</span>** pour entre autres les fichiers *<span class = 'TYPOS'>dbase</span>* et ceux des logiciels. SPSS et Stata
+  - **<span class = 'CAT_HOMONYMES_PARONYMES'>sas7bdat</span>** pour les fichiers du logiciel SAS.
+  - **<span class = 'TYPOS'>xlsx</span>** pour les fichiers Excel.
+* Pour manipuler des chaînes de caractères et des dates :
+  - **<span class = 'TYPOS'>stringr</span>** pour les chaînes de caractères.
+  - **<span class = 'TYPOS'>lubridate</span>** pour les dates.
+* Pour manipuler des données :
+  - **<span class = 'TYPOS'>dplyr</span> ** du **tidyverse** propose une grammaire pour manipuler et structurer des données.
+:::
+$message
+[1] "Faute de frappe possible trouvée."
+
+$shortMessage
+[1] "Faute de frappe"
+
+$replacements
+$replacements[[1]]
+$replacements[[1]]$value
+[1] "traverse"
+
+
+$replacements[[2]]
+$replacements[[2]]$value
+[1] "traversé"
+
+
+$replacements[[3]]
+$replacements[[3]]$value
+[1] "adverse"
+
+
+$replacements[[4]]
+$replacements[[4]]$value
+[1] "inverse"
+
+
+$replacements[[5]]
+$replacements[[5]]$value
+[1] "diverse"
+
+
+$replacements[[6]]
+$replacements[[6]]$value
+[1] "déverse"
+
+
+$replacements[[7]]
+$replacements[[7]]$value
+[1] "inversé"
+
+
+$replacements[[8]]
+$replacements[[8]]$value
+[1] "déversé"
+
+
+$replacements[[9]]
+$replacements[[9]]$value
+[1] "Fediverse"
+
+
+$replacements[[10]]
+$replacements[[10]]$value
+[1] "déversè"
+
+
+$replacements[[11]]
+$replacements[[11]]$value
+[1] "inversè"
+
+
+$replacements[[12]]
+$replacements[[12]]$value
+[1] "traversè"
+
+
+$replacements[[13]]
+$replacements[[13]]$value
+[1] "téléverse"
+
+
+$replacements[[14]]
+$replacements[[14]]$value
+[1] "téléversè"
+
+
+$replacements[[15]]
+$replacements[[15]]$value
+[1] "téléversé"
+
+
+
+$offset
+[1] 988
+
+$length
+[1] 9
+
+$context
+$context$text
+[1] "...puler des données :   - **dplyr ** du **tidyverse** propose une grammaire pour manipuler ..."
+
+$context$offset
+[1] 43
+
+$context$length
+[1] 9
+
+
+$sentence
+[1] "* Pour manipuler des données :\n  - **dplyr ** du **tidyverse** propose une grammaire pour manipuler et structurer des données."
+
+$type
+$type$typeName
+[1] "Other"
+
+
+$rule
+$rule$id
+[1] "FR_SPELLING_RULE"
+
+$rule$description
+[1] "Faute de frappe possible"
+
+$rule$issueType
+[1] "misspelling"
+
+$rule$category
+$rule$category$id
+[1] "TYPOS"
+
+$rule$category$name
+[1] "Faute de frappe possible"
+
+
+
+$ignoreForIncompleteSentence
+[1] FALSE
+
+$contextForSureMatch
+[1] 0
+
+
+Dans ce chapitre, nous reviendrons brièvement sur l’histoire de R et la philosophie qui entoure le logiciel. Nous donnerons quelques conseils pour son installation et la mise en place d’un environnement de développement. Nous présenterons les principaux objets qui sous-tendent le travail effectué avec R (*<span class = 'TYPOS'>dataframe</span>*, vecteur, matrice, etc.) et comment les manipuler avec des exemples appliqués. Si vous maîtrisez déjà R, nullement besoin de lire ce chapitre !
+
+<span class = 'MISC'>::</span>: {.<span class = 'TYPOS'>bloc_package</span> data-latex=''}
+Dans ce chapitre, nous utiliserons principalement les *packages* suivants :
+
+* Pour importer des fichiers externes :
+  - **<span class = 'TYPOS'>foreign</span>** pour entre autres les fichiers *<span class = 'TYPOS'>dbase</span>* et ceux des logiciels. SPSS et Stata
+  - **<span class = 'CAT_HOMONYMES_PARONYMES'>sas7bdat</span>** pour les fichiers du logiciel SAS.
+  - **<span class = 'TYPOS'>xlsx</span>** pour les fichiers Excel.
+* Pour manipuler des chaînes de caractères et des dates :
+  - **<span class = 'TYPOS'>stringr</span>** pour les chaînes de caractères.
+  - **<span class = 'TYPOS'>lubridate</span>** pour les dates.
+* Pour manipuler des données :
+  - **<span class = 'TYPOS'>dplyr</span> ** du **<span class = 'TYPOS'>tidyverse</span>** propose une grammaire pour manipuler et structurer des données.
+:::
+$message
+[1] "Les deux-points sont précédés d’une espace insécable."
+
+$shortMessage
+[1] "Insérer une espace insécable"
+
+$replacements
+$replacements[[1]]
+$replacements[[1]]$value
+[1] ": :"
+
+
+
+$offset
+[1] 1064
+
+$length
+[1] 2
+
+$context
+$context$text
+[1] "...ur manipuler et structurer des données. ::: "
+
+$context$offset
+[1] 43
+
+$context$length
+[1] 2
+
+
+$sentence
+[1] ":::"
+
+$type
+$type$typeName
+[1] "Other"
+
+
+$rule
+$rule$id
+[1] "FRENCH_WHITESPACE"
+
+$rule$description
+[1] "Insertion des espaces fines insécables"
+
+$rule$issueType
+[1] "uncategorized"
+
+$rule$category
+$rule$category$id
+[1] "MISC"
+
+$rule$category$name
+[1] "Règles de base"
+
+
+
+$ignoreForIncompleteSentence
+[1] FALSE
+
+$contextForSureMatch
+[1] 0
+
+
+Dans ce chapitre, nous reviendrons brièvement sur l’histoire de R et la philosophie qui entoure le logiciel. Nous donnerons quelques conseils pour son installation et la mise en place d’un environnement de développement. Nous présenterons les principaux objets qui sous-tendent le travail effectué avec R (*<span class = 'TYPOS'>dataframe</span>*, vecteur, matrice, etc.) et comment les manipuler avec des exemples appliqués. Si vous maîtrisez déjà R, nullement besoin de lire ce chapitre !
+
+<span class = 'MISC'>::</span>: {.<span class = 'TYPOS'>bloc_package</span> data-latex=''}
+Dans ce chapitre, nous utiliserons principalement les *packages* suivants :
+
+* Pour importer des fichiers externes :
+  - **<span class = 'TYPOS'>foreign</span>** pour entre autres les fichiers *<span class = 'TYPOS'>dbase</span>* et ceux des logiciels. SPSS et Stata
+  - **<span class = 'CAT_HOMONYMES_PARONYMES'>sas7bdat</span>** pour les fichiers du logiciel SAS.
+  - **<span class = 'TYPOS'>xlsx</span>** pour les fichiers Excel.
+* Pour manipuler des chaînes de caractères et des dates :
+  - **<span class = 'TYPOS'>stringr</span>** pour les chaînes de caractères.
+  - **<span class = 'TYPOS'>lubridate</span>** pour les dates.
+* Pour manipuler des données :
+  - **<span class = 'TYPOS'>dplyr</span> ** du **<span class = 'TYPOS'>tidyverse</span>** propose une grammaire pour manipuler et structurer des données.
+<span class = 'MISC'>::</span>:
