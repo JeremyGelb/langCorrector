@@ -1,12 +1,24 @@
 library(shiny)
 library(shinyjs)
+library(shinyWidgets)
+library(magrittr)
 
 ## loading all the variables from shiny_app list
-Language_env <- Language::Language_env
+Language_env <- langCorrector::Language_env
 shiny_data <- Language_env$shiny_data
 for (name in names(shiny_data)){
   assign(name, shiny_data[[name]])
 }
+
+
+# a help button wiht JS
+## loading the helper messages
+helper_folder <- system.file("shiny-examples/language_checker/www/help_mds",
+                             package = "langCorrector", mustWork = TRUE)
+filname <- paste(helper_folder, "nextbutton", sep = "/")
+helper_string <- readChar(filname, file.info(filname)$size)
+
+
 
 ui <- fluidPage( theme = shinythemes::shinytheme("flatly"),
   useShinyjs(),
@@ -29,17 +41,24 @@ ui <- fluidPage( theme = shinythemes::shinytheme("flatly"),
 
   ## ----------------------- ENTETE DE l'APPLICATION ----------------------- ##
   fluidRow(wellPanel("THE LANGUAGE CORRECTOR FOR RMARKDOWN")),
+  shiny::div(id = "helpDiv", HTML(helper_string)),
   shiny::h4("Navigation"),
   fluidRow(
     column(width = 1, actionButton("prev_button", "Previous Text")),
-    column(width = 1, actionButton("next_button", "Next Text"))
+    column(width = 1, actionButton("next_button", "Next Text")),
+    column(width = 7),
+    column(width = 1, materialSwitch(inputId = "AutoSave", label = "Auto Save", status = "primary", value = TRUE)),
+    column(width = 1, materialSwitch(inputId = "KeepTrack", label = "Keep Track", status = "primary", value = TRUE)),
+    column(width = 1, actionButton(inputId = "help_button", "Help?"))
   ),
   shiny::br(),
   fluidRow(
     ## ----------------- La première colonne : texte éditable ----------------- ##
     column(width = 6,
            h4("Edit your text here"),
-           tags$div(id="text_pannel", class = "main_pannels", checked=NA, HTML(html_text))
+           textAreaInput("text_pannel", label = NULL) %>%
+             tagAppendAttributes(class = 'main_pannels', style = 'width : 95%;')
+           #tags$div(id="text_pannel", class = "main_pannels", checked=NA, HTML(html_text))
     ),
 
     ## ----------------- La deuxième colonne : le texte avec le rendu ----------------- ##
@@ -55,4 +74,5 @@ ui <- fluidPage( theme = shinythemes::shinytheme("flatly"),
     column(width = 1, actionButton("save_button", "Save"))
   ),
   fluidRow(tags$div(id="show_corrections"))
+
 )

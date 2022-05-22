@@ -18,10 +18,11 @@
 # }
 #
 #
-# rmd_file <- "E:/R/Packages/Language/inst/01-priseenmainR.Rmd"
-# is_Language_installed()
+# rmd_file <- "E:/R/Packages/langCorrector/inst/01-priseenmainR.Rmd"
+# is_LanguageTools_installed()
 # #install_Language()
-# #install_lang_list()
+# #is_Language_installed()
+# install_lang_list()
 # get_lang_list()
 #
 # lang <- "fr"

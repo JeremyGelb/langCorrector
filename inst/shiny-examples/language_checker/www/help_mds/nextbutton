@@ -1,0 +1,11 @@
+Here are some tips to use this application:
+<ul>
+	<li>click on the next button to got to the next block of text of your markdown document;</li>
+	<li>click on the previous button to got to the previous block of text of your markdown document;</li>
+	<li>you can edit your text in the left pannel;</li>
+	<li>when you hit Refresh, the right pannel is updated</li>
+	<li>when you hit Reset, it will reset you text as it was in the orignal rmarkdown file</li>
+	<li>when you hit Save, it will save your edits in a rmarkdown file</li>
+	<li>As long as Auto Save is active, navigating to next or previous block of text will also save your edits in a temporary rmarkdown file</li>
+	<li>As long as Keep Track is active, saving your edits will create a temporary file with the current datetime in its name. It will contain a backup of the rmarkdown before your modifications. We higlhy recommand to keep it active!</li>
+</ul>

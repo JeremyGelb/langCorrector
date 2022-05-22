@@ -1,11 +1,21 @@
-Package: Language
+Package: langCorrector
 Type: Package
-Title: What the Package Does (Title Case)
+Title: Shiny app for correcting rmarkdown documents
 Version: 0.1.0
-Author: Who wrote it
-Maintainer: The package maintainer <yourself@somewhere.net>
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
-License: What license is it under?
+Authors@R: c(
+    person("Jeremy", "Gelb", email = "jeremy.gelb@inrs.ca",role = c("aut", "cre")))
+Maintainer: Jeremy Gelb <jeremy.gelb@inrs.ca>
+Description: This package provides access to LanguageTools to correct text in several languages. Currently, a Shiny app is available to edit rmakdown documents.
+License: GPL-2
 Encoding: UTF-8
 LazyData: true
+Imports: 
+    ps (>= 1.6.0),
+    shiny (>= 1.7.1),
+    shinyWidgets (>= 0.7.0),
+    shinyjs (>= 2.1.0),
+    htmltools (>= 0.5.2),
+    parsermd (>= 0.1.2),
+    magrittr (>= 2.0.2),
+    stringr (>= 1.4.0)
+RoxygenNote: 7.1.2

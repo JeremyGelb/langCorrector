@@ -1,3 +1,10 @@
+/* global style for all errors */
+.lerror{
+  cursor: pointer;
+  color: purple;
+}
+
+
 /* Style for a casing issue */
 .CASING{
   text-decoration: underline;
